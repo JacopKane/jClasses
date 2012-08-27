@@ -11,13 +11,9 @@ It's based on John Resig's and Javascript MVC's inheritance method.
 * [Click here](https://github.com/JacopKane/jClasses/zipball/master)
 * or with Git from terminal:
 	* Submodule:
-```Bash
-$ git submodule add https://github.com/JacopKane/jClasses.git
-```
+```$ git submodule add https://github.com/JacopKane/jClasses.git```
 	* Clone:
-```Bash
-$ git clone https://github.com/JacopKane/jClasses.git
-```
+```$ git clone https://github.com/JacopKane/jClasses.git```
 
 
 ##Example:
