@@ -9,13 +9,15 @@ It's based on John Resig's and Javascript MVC's inheritance method.
 
 ## Download
 * [Click here](https://github.com/JacopKane/jClasses/zipball/master)
-* or with Git:
+* or with Git from terminal:
 	* Submodule:
+```Bash
+$ git submodule add https://github.com/JacopKane/jClasses.git
 ```
-$ git submodule add https://github.com/JacopKane/jClasses.git```
 	* Clone:
+```Bash
+$ git clone https://github.com/JacopKane/jClasses.git
 ```
-$ git clone https://github.com/JacopKane/jClasses.git```
 
 
 ##Example:
@@ -29,7 +31,10 @@ var Configuration = {
 $(document).ready(function() {
 
 	var afterBaseInit = function($Base) {
-		return $('Viewport').extending(Base, { $view : $('div#viewport'), width: 720 }, afterViewport);
+		return $('Viewport').extending(Base, { $view : $('div#viewport'), width: 720 }, afterViewportInit);
+	}, afterViewportInit = function($Viewport) {
+		console.log('everything is intialized. YAY !');
+		return true;
 	};
 
 	$.Class.init({
