@@ -15,8 +15,13 @@ It's based on John Resig's and Javascript MVC's inheritance method.
 	* Clone:
 ```$ git clone https://github.com/JacopKane/jClasses.git```
 
-
 ##Example:
+
+```Html
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jClasses/jquery.jClasses.js"></script>
+```
+
 ```Javascript
 
 var Configuration = {
